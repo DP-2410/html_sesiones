@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DOM y Eventos</title>
+
+    <link rel="stylesheet" href="PERMANENCIA01.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div>
+            <p class="etiqueta">EJERCICIO 3</p>
+
+            <h1>DOM y Eventos</h1>
+
+            <p>
+                Ejemplos sencillos de JavaScript aplicados
+                a una página web.
+            </p>
+        </div>
+
+        <button id="btnModo">Modo oscuro</button>
+
+    </header>
+
+
+    <main>
+
+
+        <section class="presentacion">
+
+            <h2>Trabajando con el DOM</h2>
+
+            <p id="textoPrincipal">
+                Haz clic en el botón para cambiar este texto.
+            </p>
+
+            <button id="btnCambiar">
+                Cambiar texto
+            </button>
+
+        </section>
+
+
+        <section>
+
+            <h2>Modificar estilos</h2>
+
+            <p id="parrafoEstilo">
+                Este párrafo cambiará de apariencia usando JavaScript.
+            </p>
+
+            <button id="btnEstilo">
+                Cambiar estilo
+            </button>
+
+        </section>
+
+
+        <section>
+
+            <h2>Crear elementos</h2>
+
+            <p>
+                Agrega elementos a la lista sin recargar la página.
+            </p>
+
+            <ul id="lista"></ul>
+
+            <button id="btnAgregar">
+                + Agregar elemento
+            </button>
+
+        </section>
+
+
+        <section>
+
+            <h2>Evento de teclado</h2>
+
+            <p>
+                Presiona cualquier tecla.
+            </p>
+
+            <p id="resultadoTeclado" class="resultado">
+                Esperando una tecla...
+            </p>
+
+        </section>
+
+
+        <section>
+
+            <h2>Formulario</h2>
+
+            <form id="formulario">
+
+                <label for="nombre">
+                    Nombre
+                </label>
+
+                <input
+                    id="nombre"
+                    type="text"
+                    placeholder="Escribe tu nombre"
+                >
+
+
+                <label for="mensaje">
+                    Mensaje
+                </label>
+
+                <textarea
+                    id="mensaje"
+                    placeholder="Escribe un mensaje"
+                ></textarea>
+
+
+                <button type="submit">
+                    Guardar
+                </button>
+
+            </form>
+
+            <p id="resultadoFormulario" class="resultado"></p>
+
+        </section>
+
+    </main>
+
+
+    <footer>
+
+        <p>
+            &copy;
+            <span id="anioActual">2026</span>
+            Del Piero Peña Manrique
+        </p>
+
+        <nav><a href="INDEX.html">Index.html</a> 
+                <a href="HTML5.html">Html5.html</a> 
+                <a href="CSS.html">Css.html</a>
+            <a href="https://dp-2410.github.io/Portafolio_DP/index.html">Portafolio</a>
+            <a href="./PERMANENCIA01.html">PERMANENCIA01</a>
+            </nav>
+
+        <p>
+            Ejercicio de DOM y Eventos
+        </p>
+
+    </footer>
+
+
+    <script src="PERMANENCIA01.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    padding: 25px;
+}
+
+
+header {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #34495e;
+    color: white;
+    border-radius: 8px;
+}
+
+.etiqueta {
+    font-size: 12px;
+    color: #d6e0e8;
+    margin-bottom: 5px;
+}
+
+header h1 {
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #e5e5e5;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    margin-top: 18px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+section h2 {
+    color: #34495e;
+    margin-bottom: 8px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 5px;
+    background: #4f7ea8;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3f6688;
+}
+
+ul {
+    margin: 12px 0 0 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+#formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 9px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fafafa;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #4f7ea8;
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+}
+
+.resultado {
+    margin-top: 12px;
+    padding: 9px;
+    background: #f0f3f5;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+footer {
+    max-width: 900px;
+    margin: 20px auto 0;
+    padding: 15px;
+    background: #8cbae9;
+    color: white;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer p {
+    margin: 4px;
+    color: #151515;
+}
+
+body.modo-oscuro {
+    background: #1e1e1e;
+    color: #eee;
+}
+
+body.modo-oscuro section {
+    background: #292929;
+    border-color: #444;
+}
+
+body.modo-oscuro section h2 {
+    color: #b8d0e5;
+}
+
+body.modo-oscuro input,
+body.modo-oscuro textarea {
+    background: #333;
+    color: white;
+    border-color: #555;
+}
+
+body.modo-oscuro .resultado {
+    background: #333;
+}
+
+body.modo-oscuro header,
+body.modo-oscuro footer {
+    background: #151515;
+}
